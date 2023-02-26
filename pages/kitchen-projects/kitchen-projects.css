@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(52,52,52);
+}
+#title{
+    background-image: url(../img/2.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.brand-image{
+    height: 60px;
+    margin: 2% 0;
+}
+#testimonials{
+    text-align: center;
+    background-color:rgb(182,162,123);
+    color: antiquewhite;
+}
+
+.contact{
+    text-align: center;
+    margin: 3% 0;
+}
+.testi-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 2% ;
+}
+
+img{
+    border-radius: 5%;
+}

@@ -1,0 +1,232 @@
+ /* First Section */
+#title{
+    background-image: url(../img/2.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+img{
+    height: 60px;
+    margin-top: 3%;
+    padding-left: 10%;
+}
+/* .brand{
+
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Public Sans', sans-serif;
+
+    color: #fff;
+}
+
+.brand-title{
+    display: inline-block;
+    font-weight: 900;
+} */
+
+.brand-title h6{
+    font-weight: 900;
+}
+
+.title-text{
+    font-size: 6rem;
+    text-align: left;
+    line-height: 1;
+    margin-left: 50%;
+    font-family: 'Radley', serif;
+    color: rgb(219,195,148);
+}
+
+/* Second Section */
+#paragraph{
+    background-color: rgb(52,52,52);
+    text-align: center;
+    padding: 8% 13%;
+    font-family: 'Radley', serif;
+}
+
+#paragraph h4{
+    color: rgb(182,162,123);
+}
+
+#features{
+    background-color: rgb(182,162,123);
+}
+
+.row{
+    margin-right: 1px;
+}
+
+#features .features{
+    font-size: 3.5rem;
+    padding: 5% 20% 2%;
+    text-align: center;
+    font-family: 'Radley', serif;
+}
+
+#features .features-par{
+    font-size: 1rem;
+    padding: 0 30% 2%;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.feature-box1{
+    border-radius: 4%;
+    background-image: url(../img/home\ renovations.jpeg);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 1% 6%;
+    text-align: center;
+    padding: 10% 0;
+    font-family: 'Radley', serif;
+    color: #fff;
+    font-size: 3rem;
+
+}
+
+.feature-box2{
+    border-radius: 4%;
+    background-image: url(../img/garbage\ disposal.png);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 1% 0;
+    text-align: center;
+    padding: 10% 0;
+    font-family: 'Radley', serif ;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.feature-box3{
+    border-radius: 4%;
+    background-image: url(../img/home\ repair.png);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 1% 6%;
+    text-align: center;
+    padding: 10% 0;
+    font-family: 'Radley', serif;
+    color: #fff;
+    font-size: 3rem;
+}
+
+h6{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+#testimonial{
+    background-color: rgb(52,52,52);
+    color: rgb(182,162,123);
+}
+
+.test-head{
+    text-align: center;
+    padding: 2% 0;
+    font-family: 'Radley', serif;
+    text-decoration: underline 1px;
+
+}
+
+.feature-box{
+    text-align: center  ;
+    border-style: solid;
+    border-width: 1px;
+}   
+
+span{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.contact{
+    background-color: rgb(52,52,52);
+    padding: 5% 0;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline #fff;
+}
+
+.features-button{
+    font-size: 1.2rem;
+    background-color: rgb(52,52,52);
+    text-align: center;
+    margin: 10% 25%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+@media (max-width:1028px) {
+    .title-text{
+        margin-top: 75px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .features-par{
+        padding: 0px;
+        display: none;
+    }
+    .features{
+        padding: 0px;
+        display: none;
+    }
+    #features .features{
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Radley', serif;
+    }
+    .feature-box{
+        margin: 8px 50px 0;
+    }
+
+    .test-head{
+        padding: 0 100px;
+    }
+
+    .title-text{
+        font-size: 4.5rem;
+    }
+
+    .feature-box1{
+        margin: 2% 15% 1% ;
+    }
+    .feature-box2{
+        margin: 1% 15%;
+    }
+    .feature-box3{
+        margin: 2% 15%;
+    }
+
+    img{
+        height: 60px;
+        padding-left: 0;
+    }
+
+    .features-button{
+        margin: 0 25%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
